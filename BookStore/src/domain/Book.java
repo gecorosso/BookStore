@@ -8,6 +8,7 @@ public class Book {
 	private Publisher publisher;
 	private List<Chapter> chapters;
 	
+	
 	public Book() {}
 	public Book(String isbn, String name, Publisher publisher) {
 		this.isbn = isbn;
