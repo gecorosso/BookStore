@@ -32,7 +32,7 @@ public class BookStoreClient {
 		bookStoreService.persistObjectGraph(book);
 		*/
 		//retrieving object graph
-		
+		//Modifica
 		Book book = bookStoreService.retrieveObjectGraph("9781617290459");
 		System.out.println(book);
 		
